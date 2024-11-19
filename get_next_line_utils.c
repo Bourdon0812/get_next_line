@@ -6,13 +6,13 @@
 /*   By: ilbonnev <ilbonnev@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 16:58:30 by ilbonnev          #+#    #+#             */
-/*   Updated: 2024/11/19 14:11:27 by ilbonnev         ###   ########.fr       */
+/*   Updated: 2024/11/19 17:32:33 by ilbonnev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-char	ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int	i;
 

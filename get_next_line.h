@@ -6,7 +6,7 @@
 /*   By: ilbonnev <ilbonnev@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 16:50:48 by ilbonnev          #+#    #+#             */
-/*   Updated: 2024/11/19 14:11:07 by ilbonnev         ###   ########.fr       */
+/*   Updated: 2024/11/19 17:35:02 by ilbonnev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 #  define BUFFER_SIZE 42
 # endif
 
-char	ft_strlen(char *str);
+int		ft_strlen(char *str);
 int		ft_has_line(char *str);
 char	*ft_strcat(char *str1, char *str2);
 char	*ft_strdup(char *s1);

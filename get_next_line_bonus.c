@@ -6,7 +6,7 @@
 /*   By: ilbonnev <ilbonnev@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 14:09:32 by ilbonnev          #+#    #+#             */
-/*   Updated: 2024/11/19 14:23:01 by ilbonnev         ###   ########.fr       */
+/*   Updated: 2024/11/19 17:40:54 by ilbonnev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ static void	ft_stash(int fd, char **stash, int *byte_read)
 		if (*byte_read < 0)
 		{
 			free(buffer);
+			free(*stash);
+			*stash = NULL;
 			return ;
 		}
 		buffer[*byte_read] = '\0';

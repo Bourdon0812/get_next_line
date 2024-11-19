@@ -6,13 +6,13 @@
 /*   By: ilbonnev <ilbonnev@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 14:10:13 by ilbonnev          #+#    #+#             */
-/*   Updated: 2024/11/19 14:12:54 by ilbonnev         ###   ########.fr       */
+/*   Updated: 2024/11/19 17:32:16 by ilbonnev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
 
-char	ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int	i;
 
